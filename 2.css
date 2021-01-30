@@ -1,0 +1,112 @@
+body{
+    background: url("2.jpeg");
+    background-size: 900px;
+    background-repeat: no-repeat;
+    background-position: top center;
+   
+}
+
+@keyframes skater-frames{
+    0%{position: absolute; left: 45rem; top: 19rem; }
+    5%{position: absolute; left: 48rem; top: 18.2rem; }
+    10%{position: absolute; left: 45rem; top: 17.4rem; }
+    15%{position: absolute; left: 48rem; top: 16.2rem; }
+    20%{position: absolute; left: 45rem; top: 15.4rem; }
+    25%{position: absolute; left: 48rem; top: 14.6rem; }
+    30%{position: absolute; left: 45rem; top: 13.8rem; }
+    35%{position: absolute; left: 48rem; top: 13.0rem; }
+    40%{position: absolute; left: 45rem; top: 12.8rem; }
+    45%{position: absolute; left: 48rem; top: 12.6rem; }
+    50%{position: absolute; left: 47rem; top: 12.2rem; transform: scale(.25)}
+    55%{position: absolute; left: 47.5rem; top: 10rem; transform: scale(.25)}
+    60%{position: absolute; left: 47.5rem; top: 12.2rem; transform: scale(.25)}
+    65%{position: absolute; left: 47.5rem; top: 10rem; transform: scale(.25)}
+    70%{position: absolute; left: 47.5rem; top: 12.2rem; transform: scale(.25)}
+    75%{position: absolute; left: 47.5rem; top: 10rem; transform: scale(.25)}
+    80%{position: absolute; left: 47.5rem; top: 12.2rem; transform: scale(.25)}
+    85%{position: absolute; left: 47.5rem; top: 10rem; transform: scale(.25)}
+    90%{position: absolute; left: 47.5rem; top: 12.2rem; transform: scale(.25)}
+    95%{position: absolute; left: 47.5rem; top: 10rem; transform: scale(.25)}
+    100%{position: absolute; left: 47.5rem; top: 12.2rem; transform: scale(.25)}
+}
+
+@keyframes ball-frames{
+    0%{position: absolute; left: 23rem; top: 50rem; }
+    25%{position: absolute; left: 40rem; top: 2rem; }
+    50%{position: absolute; left: 50rem; top: 19rem; transform: scale(.5)}
+    55%{position: absolute; left: 50rem; top: 15rem; transform: scale(.5)}
+    60%{position: absolute; left: 50rem; top: 18.8rem; transform: scale(.5)}
+    65%{position: absolute; left: 50rem; top: 14.5rem; transform: scale(.5)}
+    70%{position: absolute; left: 50rem; top: 18.8rem; transform: scale(.5)}
+    75%{position: absolute; left: 50rem; top: 14.0rem; transform: scale(.5)}
+    80%{position: absolute; left: 50rem; top: 18.8rem; transform: scale(.5)}
+    85%{position: absolute; left: 50rem; top: 13.5rem; transform: scale(.5)}
+    90%{position: absolute; left: 50rem; top: 18.8rem; transform: scale(.5)}
+    95%{position: absolute; left: 50rem; top: 13.0rem; transform: scale(.5)}
+    100%{position: absolute; left: 50rem; top: 18.8rem; transform: scale(.5)}
+}
+
+@keyframes rabbit-frames{
+    0%{position: absolute; top:23rem; left:75rem;}
+    5%{position: absolute; top:23.5rem; left:72rem; transform: rotate(35deg)}
+    10%{position: absolute; top:24rem; left:69rem; transform: rotate(2deg)}
+    15%{position: absolute; top:24.5.5rem; left:66rem;transform: rotate(35deg)}
+    20%{position: absolute; top:25rem; left:63rem;transform: rotate(2deg)}
+    25%{position: absolute; top:25.5rem; left:60rem;transform: rotate(35deg)}
+    30%{position: absolute; top:26rem; left:57rem;transform: rotate(2deg)}
+    35%{position: absolute; top:26.5.5rem; left:54rem;transform: rotate(35deg)}
+    40%{position: absolute; top:27rem; left:51rem;transform: rotate(2deg)}
+    45%{position: absolute; top:27.5rem; left:48rem;transform: rotate(35deg)}
+    50%{position: absolute; top:28rem; left:45rem;transform: rotate(2deg)}
+    55%{position: absolute; top:28.5.5rem; left:42rem;transform: rotate(35deg)}
+    60%{position: absolute; top:29rem; left:39rem;transform: rotate(2deg)}
+    65%{position: absolute; top:29.5rem; left:36rem;transform: rotate(35deg)}
+    70%{position: absolute; top:30rem; left:33rem;transform: rotate(2deg)}
+    75%{position: absolute; top:30.5rem; left:30rem;transform: rotate(35deg)}
+    80%{position: absolute; top:31rem; left:27rem;transform: rotate(2deg)}
+    85%{position: absolute; top:31.5rem; left:24rem;transform: rotate(35deg)}
+    90%{position: absolute; top:32rem; left:23rem;transform: rotate(2deg)}
+    95%{position: absolute; top:32.5.5rem; left:23rem;transform: rotate(35deg)}
+    100%{position: absolute; top:33rem; left:23rem;transform: rotate(2deg)}
+   
+}
+
+#skater-bild{
+    width: 100px;
+    height: auto;
+    animation: skater-frames;
+    animation-duration: 7s;
+    animation-iteration-count:infinite;
+    animation-timing-function:ease-in-out;
+    animation-direction:alternate;
+    animation-delay: 1s;
+    position: relative;
+    /* left: 45rem; 
+    top: 19rem; */
+}
+
+#red-ball{
+    width: 20px;
+    height: auto;
+    animation: ball-frames;
+    animation-duration: 7s;
+    animation-iteration-count:infinite;
+    animation-timing-function:ease-in-out;
+    animation-direction:alternate;
+    animation-delay: 1s;
+    
+    position: relative;
+    /* left: 45rem; 
+    top: 35rem; */
+}
+#rabbit{
+    width: 3%;
+    height: auto;
+    animation: rabbit-frames;
+    animation-duration: 7s;
+    animation-iteration-count:infinite;
+    animation-timing-function:ease-in-out;
+    animation-direction:alternate;
+    animation-delay: 1s;
+    position: relative;
+}
