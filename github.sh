@@ -3,6 +3,7 @@ git init
 sleep 2
 git add .
 sleep 2
+git commit -m "new entry" .
 git branch -M main
 sleep 2
 git remote add origin https://github.com/JeyF123/lmac1.git
